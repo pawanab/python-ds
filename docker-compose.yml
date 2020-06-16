@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+    pythonlearn:
+        build: .
+        container_name: python-learn
+        volumes:
+            - .:/code
