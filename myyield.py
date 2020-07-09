@@ -25,8 +25,8 @@ if __name__ == '__main__':
         print(n)
 
     for x in fibonacci(15):
-        print(x)
+        print(x, end=' ')
     
-
+    print("\n")
     for i in reverse('pawan'):
         print(i, end='')
