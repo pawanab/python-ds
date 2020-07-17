@@ -42,6 +42,14 @@ def myArgsFun1(first_arg, *argv):
         print(arg, end=', ')
 
 
+def enumerate_word_with_digit():
+    items: list = ['zero', 'one', 'two', 'three', 'four', 'five'] 
+    for (index, item) in enumerate(items):
+        print(index, item)
+    # print(list(enumerate(l)))
+
+
+
 if __name__ == "__main__":
     l = [1,2,3,4,5]
     print(l)
@@ -74,3 +82,6 @@ if __name__ == "__main__":
 
     myArgsFun('pawan','arora','jaipur','this is multiple','args', 'passed')
     myArgsFun1('pawan','arora','jaipur','this is multiple','args', 'passed')
+
+    print('\n\n')
+    enumerate_word_with_digit()
