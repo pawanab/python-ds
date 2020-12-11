@@ -20,6 +20,7 @@ def smart_divide(func):
 
 
 def beautiful_print(func):
+    print('i am called.')
     def change_print(*args):
         print('*********************************', end="\t")
         func(*args)
